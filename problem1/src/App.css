@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 100px); 
+  grid-gap: 10px; 
+}
+
+.box {
+  width: 100px;
+  height: 100px; 
+  background-color: #ccc; 
+  cursor: pointer;
+}
